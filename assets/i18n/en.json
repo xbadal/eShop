@@ -1,0 +1,20 @@
+{
+  "app_name_title": "eShop",
+  "done_title": "Done",
+  "error_title": "Oops!",
+  "error_message": "Something went wrong, Please try again",
+  "done_button_label": "Done",
+  "ok_button_label": "OK",
+  "session_expired_title": "Session Expired!",
+  "session_expired_message": "Please login back",
+  "no_internet_connection_title": "No Internet Connection",
+  "no_internet_connection_message": "Please check your internet connection",
+  "enable_wifi_button_label": "Enable Wifi",
+  "route_not_found_title": "404",
+  "route_not_found_message": "Page not found",
+  "logout_title_label": "Logout?",
+  "logout_message_label": "Are you sure you want to Logout?",
+  "logout_button_title_label": "Logout",
+  "yes_button_label": "YES",
+  "no_button_label": "NO"
+}
