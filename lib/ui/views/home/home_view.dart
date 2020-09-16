@@ -17,12 +17,8 @@ import 'package:carousel_slider/carousel_slider.dart';
 class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    var size = MediaQuery.of(context).size;
-    final double itemHeight = (size.height - kToolbarHeight - 24) / 2.5;
-    final double itemWidth = size.width / 2;
-
     return ViewModelProvider<HomeViewModel>.withConsumer(
-        onModelReady: (model) => model.init(),
+        onModelReady: (model) => model.init(context),
         builder: (context, model, child) {
           return Scaffold(
             appBar: AppBar(
@@ -118,7 +114,8 @@ class HomeView extends StatelessWidget {
                       Expanded(
                         child: GridView.count(
                           crossAxisCount: 2,
-                          childAspectRatio: (itemWidth / itemHeight),
+                          childAspectRatio:
+                              (model.itemWidth / model.itemHeight),
                           controller: ScrollController(keepScrollOffset: false),
                           shrinkWrap: true,
                           scrollDirection: Axis.vertical,

@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:sample_provider_app/helper/toast_message.dart';
 import 'package:sample_provider_app/models/product/product_model.dart';
 import 'package:sample_provider_app/models/product/products_response_model.dart';
@@ -8,6 +9,8 @@ import '../../../locator.dart';
 
 class HomeViewModel extends BaseViewModel {
   final _repository = locator<RepositoryService>();
+  double itemHeight;
+  double itemWidth;
 
   final List<String> imgList = [
     'https://images.unsplash.com/photo-1520342868574-5fa3804e551c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6ff92caffcdd63681a35134a6770ed3b&auto=format&fit=crop&w=1951&q=80',
@@ -25,7 +28,10 @@ class HomeViewModel extends BaseViewModel {
 
   List<ProductModel> get cartProducts => _cartProducts;
 
-  init() async {
+  init(BuildContext context) async {
+    var size = MediaQuery.of(context).size;
+    itemHeight = (size.height - kToolbarHeight - 24) / 2.3;
+    itemWidth = size.width / 2;
     await getProducts();
   }
 
