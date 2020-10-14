@@ -1,0 +1,32 @@
+//Flutter
+
+https://play.google.com/store/apps/details?id=org.eccouncil.aware
+https://play.google.com/store/apps/details?id=com.ohphish.quizzer
+https://play.google.com/store/apps/details?id=com.godatu.dance
+https://play.google.com/store/apps/details?id=co.cafenews.newscafe
+https://play.google.com/store/apps/details?id=com.topstar.smarterbroker
+https://play.google.com/store/apps/details?id=com.realisgood.app
+https://play.google.com/store/apps/details?id=com.plan2.app
+
+
+//Not on Playstore (Flutter)
+//eAttendance (Mark Attendance Based on Location)
+//gttiLearning (Learning Platform)
+//WhatDPhish
+//Doctry
+
+
+//Android
+https://cricduel.com/ (Android App)
+https://play.google.com/store/apps/details?id=com.infobase.quizxl
+https://play.google.com/store/apps/details?id=badal.appkart.kolkatasub
+https://play.google.com/store/apps/details?id=com.everstylish
+https://play.google.com/store/apps/details?id=com.allblackapps.budget
+
+//StackOverflow
+https://stackoverflow.com/users/5830240/xbadal
+
+//Github
+https://github.com/xbadal
+
+
